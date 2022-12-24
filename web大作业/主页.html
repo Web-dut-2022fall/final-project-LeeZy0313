@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>梅州-世界客都</title>
+        <link rel=stylesheet href="img/page.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    </head>
+<header>
+        <div class="header">
+                        <div class="home">
+                            <div class="content">
+                                <div class="stars"></div>
+                                <img class="bgc" src="img/注册背景图1.jpg" width="100%" alt="">
+                                <h2 class="title">欢迎来到梅州</h2>
+                                <h2 class="titles">世界客都</h2>
+                                <img class="icon" src="img/小图.png" alt="">
+                            </div>
+    </div>
+</header>
+<main>
+<body> 
+    <span style="font-size:22px;cursor:pointer" onclick="openNav()">&#9776; 点击此处打开侧边导航栏 &#9776; </span>
+            <div id="mySidenav" class="sidenav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <a href='主页.html'target=\"view_window\"><span>主页</span></a>
+              <a href='交通.html'target=\"view_window\"><span>交通</span></a>
+              <a href='美食.html'target=\"view_window\"><span>美食</span></a>
+              <a href='文化.html'target=\"view_window\"><span>文化</span></a>
+              <a href='表单.html'target=\"view_window\"><span>注册</span></a>
+            </div>
+
+            <div id="main">
+        <div class="introduce">
+            <div class="introduce_item">
+                <img class="introduce_item_img" src="img/第一张图.jpeg" alt="">
+                <span class="introduce_item_title">如果梅州是一部电影<br>
+
+                    每一个场景，每一个镜头<br>
+                    
+                    都意蕴深远，耐人寻味<br>
+                    
+                    我们就在这电影里<br>
+                    
+                    轻倚时光深处<br>
+                    
+                    静待岁月开花</span>
+
+            </div>
+            <div class="introduce_item">
+                <span class="introduce_item_titles">闲心对绿水，清净两无尘<br>
+
+                    这里有瑰丽的山川美景<br>
+                    
+                    这里有诗意的田园风光<br>
+                    
+                    这里有旖旎的四季美景<br>
+                    
+                    这是我们生活之地<br>
+
+                    亦是我们情怀寄托之地</span>
+                <img class="introduce_item_img" src="img/第二张图.jpg" alt="">
+            </div>
+            <div class="introduce_item">
+                <img class="introduce_item_img" src="img/第三张图.jpeg" alt="">
+                <span class="introduce_item_title">悠然山水间，古韵入画来<br>
+
+                    一砖一瓦都有其可追溯的静谧岁月<br>
+                    
+                    一街一巷都有其可承载的厚重历史<br>
+                
+                    它们包容着岁月的变迁<br>
+
+                    既能向世人滔滔诉说它的历史奇遇<br>
+                    
+                    又能如潺潺流水<br>
+                    
+                    以其开阔和善的胸襟<br>
+                    
+                    将万家灯火传递到人们的心头</span>
+            </div>
+            <div class="introduce_item">
+                <span class="introduce_item_titles">每当月夜降临<br>
+
+                    夜色弥漫，华灯初上<br>
+                    
+                    整个城市好像笼罩上一层霓裳<br>
+                
+                    喧嚣繁华，灯影阑珊<br>
+
+                    云雾朦胧，霓虹倒影<br>
+                    
+                    有绚烂，也有静谧<br>
+                    
+                    各有各的鲜活<br>
+                    
+                    各有各的风景</span>
+                <img class="introduce_item_img" src="img/第四张图.jpeg" alt="">
+            </div>
+            <div class="introduce_item">
+                <img class="introduce_item_img" src="img/第五张图.jpeg" alt="">
+                <span class="introduce_item_title">
+                    梅州的高铁已经开通，<br>
+
+                    不如就找个周末，<br>
+
+                    带上家人朋友，来梅州：<br>
+                    
+                    行走古村古镇，欣赏田园风光，<br>
+                    
+                    感受幽静乡镇生活，探寻古迹贤踪，<br>
+                    
+                    感受厚重历史遗痕，品味美食小吃，<br>
+                    
+                    感受淳朴民情民风，体验人文风情，<br>
+                    
+                    感受丰硕精神沉淀。</span>
+
+            </div>
+        </div>
+        <audio controls="controls"  id="audio" loop="loop">
+                <source src="img/世代交代.mp3" type="audio/MP3">
+        </audio>
+    </div>
+</div>
+</body>
+</main>
+
+<footer>
+    <div class="footer">
+    <span>设计:刘子浩</span>
+</div>
+</footer>
+
+<script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script>
+<script>
+    L2Dwidget.init({
+        "model": {
+             jsonPath: "https://unpkg.com/live2d-widget-model-shizuku@1.0.5/assets/shizuku.model.json",
+            "scale": 1
+        },
+        "display": {
+            "position": "left",
+            "width": 80,
+            "height": 160,
+            "hOffset": 0,
+            "vOffset": -20
+        },
+        "mobile": {
+            "show": true,
+            "scale": 0.5
+        },
+        "react": {
+            "opacityDefault": 1,
+            "opacityOnHover": 0.2
+        }
+    });
+</script>
+
+
+<script type="text/javascript">
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+            document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+        }
+        function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+        document.body.style.backgroundColor = "white";
+        }
+    </script>
+
+</html>
